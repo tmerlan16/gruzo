@@ -1,0 +1,132 @@
+@media (max-width: 992px) {
+    .menuBlock{
+        display: block;
+        top: 0;
+        right: 0;
+        position: fixed;
+        z-index: 10;
+        margin-right: 10px;
+    }
+    .menu-btn.menu-active span:before{
+        width: 10px;
+        transform: rotate(-45deg);
+        transform-origin: left bottom;
+    }
+    .menu-btn.menu-active span:after{
+        width: 10px;
+        transform: rotate(45deg);
+        transform-origin: left top;
+    }
+    .wraps{
+        visibility: hidden;
+        display: none;
+        opacity: 0;
+    }
+    .wraps.menu-actives{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        background: #183FD8;
+        height: 100vh;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        
+    }
+    .wraps.menu-actives ul{
+      display: block;
+    }
+
+       
+    
+}
+@media(max-width:768px){
+    
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        margin-top: 30px;
+    }
+    .tilteDescription{
+        font-size: 20px;
+        padding: 0;
+    }
+    .subtitleDescr{
+        font-size: 20px;
+        padding: 0;
+    }
+    .howWorkPng{
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 350px;
+        margin-left: 20%;
+
+    }
+    .imgDown{
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 400px;
+        margin-left: 20%;
+
+    }
+    .personDel{
+        padding: 0;
+        margin: 0;
+        margin-left: 25%;
+    }
+    .becomeDel{
+        margin-left: 25%;
+
+    }
+}
+@media(max-width:576px){
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        margin-top: 30px;
+    }
+    .tilteDescription{
+        font-size: 20px;
+        padding: 0;
+    }
+    .subtitleDescr{
+        font-size: 20px;
+        padding: 0;
+    }
+    .howWorkPng{
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 350px;
+        margin-left: 20%;
+        
+
+    }
+    .mediaPng{
+        margin-left: 0;
+    }
+   
+    .imgDown{
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        height: 400px;
+        margin-left: 20%;
+
+    }
+    .personDel{
+        padding: 0;
+        margin: 0;
+        margin-left: 20%;
+    }
+    .becomeDel{
+        margin-left: 20%;
+
+    }
+}
